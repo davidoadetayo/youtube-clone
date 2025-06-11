@@ -1,0 +1,36 @@
+* {
+  margin-left: 0;
+  padding-left: 0;
+  font-family: "Raleway", Arial, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 57px;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+  padding-top: 4px;
+  z-index: 200;
+}
+
+.sidebar-link {
+  font-size: 10px;
+  font-weight: 500;
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 6.5px;
+}

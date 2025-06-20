@@ -45,15 +45,18 @@ header {
   font-size: 16px;
   padding-left: 12px;
   border: 1px solid rgb(204, 204, 204);
+  outline: none;
   border-top-left-radius: 2px;
   border-bottom-left-radius: 2px;
   box-shadow: inset 0px 1px 2px rgb(238, 238, 238);
 }
 
+input[type=text]:focus {
+  border: 1px solid rgba(104, 104, 104, 1);
+}
+
 .search-bar::placeholder {
-  font-family: inherit;
-  font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .search-button {
@@ -106,35 +109,36 @@ header {
   cursor: pointer;
   height: 24px;
 }
-.current-user-pic {
-  height: 32px;
-  cursor: pointer;
-}
 
 .notification-count {
   background-color: rgb(204, 0, 0);
-  border-radius: 80px;
+  border-radius: 50%;
   position: absolute;
   top: -3px;
-  right: -7px;
+  right: -5px;
   color: white;
-  font-weight: bold;
+  font-weight: 400;
   border: 2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 10px;
-  padding: 3px 5px;
+  padding: 1px 5px;
   pointer-events: none;
 }
 
-.icon-group {
+.current-user-pic {
+  height: 32px;
+  cursor: pointer;
+}
+
+.tooltip-container {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.hover-text {
+.tooltip {
   background-color: rgba(96, 96, 96, 0.9);
   color: white;
   font-size: 12px;
@@ -148,6 +152,6 @@ header {
   white-space: nowrap;
 }
 
-.icon-group:hover .hover-text {
+.tooltip-container:hover .tooltip {
   opacity: 1;
 }

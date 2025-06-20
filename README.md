@@ -16,7 +16,7 @@ This is a static YouTube clone built using **HTML**, **CSS**, and **JavaScript**
 ## 📸 Preview
 
 ![Screenshot of YouTube Clone](./preview.png)  
-*Add a screenshot named `preview.png` in your repo to show a live preview.*
+
 
 ---
 

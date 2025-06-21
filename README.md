@@ -24,10 +24,9 @@ This is a static YouTube clone built using **HTML**, **CSS**, and **JavaScript**
 
 📂 youtube-clone/
 ├── 📁 assets/
-│   ├── 📁 css/            
+│   ├── 📁 styles/            
 │   │   └── style.css
-│   ├── 📁 js/             
-│   │   └── script.js
+|   |        
 │   └── 📁 images/
 │       ├── 📁 thumbnails/ 
 │       ├── 📁 icons/      
@@ -36,8 +35,8 @@ This is a static YouTube clone built using **HTML**, **CSS**, and **JavaScript**
 │
 ├── index.html
 ├── README.md
-├── .hintrc (optional)
-└── preview.png (for README if needed)
+├── .hintrc 
+└── preview.png 
 ---
 ## 💡 Notes
 

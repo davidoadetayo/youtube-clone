@@ -15,5 +15,13 @@ body {
 }
 
 main {
-  min-height: 120vh;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+@media (min-width: 1125px) {
+  .Exercises-YouTube {
+    padding-left: 200px;
+  }
+  
 }

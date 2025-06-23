@@ -28,3 +28,24 @@
   height: 24px;
   margin-bottom: 6.5px;
 }
+
+@media (min-width: 1125px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar-link {
+    height: 55px;
+    flex-direction: row;
+  }
+
+  .sidebar-icon {
+    display: flex;
+  }
+
+  .sidebar-link-text {
+    margin-left: 7px;
+    font-size: 11px;
+    padding-bottom: 4px;
+  }
+}

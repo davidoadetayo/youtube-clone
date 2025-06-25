@@ -24,19 +24,22 @@ This is a static YouTube clone built using **HTML**, **CSS**, and **JavaScript**
 
 📂 youtube-clone/
 ├── 📁 assets/
-│   ├── 📁 styles/            
+│   ├── 📁 styles/
 │   │   └── style.css
-|   |        
-│   └── 📁 images/
-│       ├── 📁 thumbnails/ 
-│       ├── 📁 icons/      
-│       └── 📁 channel-logo/ 
-│   
+│   │
+│   ├── 📁 images/
+│   │   ├── 📁 thumbnails/
+│   │   ├── 📁 icons/
+│   │   └── 📁 channel-logo/
+│   │
+│   └── 📁 js/
+│       └── script.js
 │
 ├── index.html
 ├── README.md
-├── .hintrc 
-└── preview.png 
+├── .hintrc
+└── preview.png
+
 ---
 ## 💡 Notes
 
@@ -50,7 +53,7 @@ This is a static YouTube clone built using **HTML**, **CSS**, and **JavaScript**
 
 - HTML5
 - CSS3
-
+- JS
 
 ---
 

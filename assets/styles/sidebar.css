@@ -7,6 +7,17 @@
   width: 72px;
   padding-top: 4px;
   z-index: 200;
+  transition: transform 0.3s;
+}
+
+.sidebar-closed {
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
+
+body.sidebar-hidden .Exercises-YouTube {
+  padding-left: 0 !important;
+  transition: all 0.5s;
 }
 
 .sidebar-link {
@@ -48,4 +59,11 @@
     font-size: 11px;
     padding-bottom: 4px;
   }
+}
+
+.Exercises-YouTube {
+  font-family: "Roboto", Arial, sans-serif;
+  padding-top: 57px;
+  padding-left: 72px;
+  background-color: rgb(249, 249, 249);
 }
